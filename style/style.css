@@ -30,7 +30,8 @@ section {
 }
 
 #images img {
-  width: 80vw;
+  max-width: 80vw;
+  max-height: 90vh;
   position: relative;
 }
 
@@ -61,14 +62,14 @@ section {
   position: absolute;
   right: 0;
   animation: arrowRightAnim 1000ms ease-in-out infinite;
-  padding: 50vh 0 50vh 10vw;
+  padding: 50vh 5vw 50vh 10vw;
 }
 
 #arrowLeft {
   position: absolute;
   left: 0;
   animation: arrowLeftAnim 1000ms ease-in-out infinite;
-  padding: 50vh 10vw 50vh 0;
+  padding: 50vh 10vw 50vh 5vw;
 }
 
 @keyframes imageTransition {
