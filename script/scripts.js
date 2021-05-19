@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
   const src = [];
 
   for (let i = 0; i < howmany; i++) {
-    src[i] = `img/beer (${i + 1}).jpg`;
+    src[i] = `img/tf${i + 1}.jpg`;
   }
 
   for (let i = 0; i < src.length; i++) {
